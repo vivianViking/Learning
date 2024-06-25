@@ -1,0 +1,150 @@
+  /* 
+ Name: Vivian Hoang
+ File: style-1.css
+ Date Created: 2024-06-07
+ Date Updated: 2023-06-23
+ Purpose: Style sheet for MIS 3371 Homework 2
+ */
+
+ #header{
+    background-color: white;
+  }
+  body 
+  {
+      background-color: #f0e2f4;
+      font-family: "Verdana", sans-serif;
+  }
+   h1 
+  {
+      text-align: center;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: normal;
+      color: #4d1b5a;
+  }
+  table.form, tr.form, td.form {
+      width: 70%;
+      opacity: 0.9;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color:#ffffff;
+      padding: 0px;
+      border-spacing: 00px;
+      border: 3px solid rgb(188, 164, 211);
+      color:Black;
+  }
+  th.form 
+  {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color:#6F4087;
+      padding: 10px;
+      color:White;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .textsize1 
+  {
+      width:10px
+  }
+  .textsize5 
+  {
+      width:40px
+  }
+  input, textarea, select
+  {
+      background-color: #D4F4FC;
+      border: 1px solid #6F4087
+  }
+  message
+  {
+        background-color: #D4F4FC;
+        border: 1px solid #6F4087
+  }
+  footer.form
+  {
+      background-color: #B5739D;
+  }
+  form 
+  {
+      background-size: 100% 100%;
+      background-image: url('bg.jpg');
+      background-repeat: no-repeat;
+      background-color: #DDC0E7;
+      padding: 10px;
+  }
+  #contact
+  {
+      background-color: #6F4087;
+      color:white;
+  }
+  #getdata
+  {
+      background-color: white;
+      color:#6F4087;
+  }
+  #check
+  {
+      background-color: #6F4087;
+      color:white;
+  }
+  #submit
+  {
+      background-color: #6F4087;
+      color:white;
+  }
+  #startover
+  {
+      background-color: white;
+      color:#6F4087;
+  }
+  
+  /* Thank you page */
+  #gohome
+  {
+      background-color: #6F4087;
+      color:white;
+  }
+  .icon
+  {
+      position: fixed;
+      bottom: 0%;
+      margin:auto 0%;
+      left:50%
+  }
+  .middle
+  {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+  .socials
+  {   
+      bottom: 0%;
+      position:absolute;
+      text-align: bottom;
+  }
+  #footer
+  {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: #B5739D;
+      color:#6F4087;
+  }
+  .img
+  {
+      top: 0%;
+      left: 80%;
+      bottom: 10%;
+      position:absolute;
+  
+  }
+  table.output, tr.output, td.output {
+    width: 70%;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(188, 164, 211);
+    padding: 2px;
+    border-spacing: 2px;
+    color:black;
+  }
+  

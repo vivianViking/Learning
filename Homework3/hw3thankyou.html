@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- 
+    Name: Vivian Hoang
+    File: homework2-thankyou.html
+    Date Created: 2024-06-17
+    Date Updated: 2024-06-23
+    Purpose: MIS 3371 Homework 2... adjusting thank you page.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Vivian's Homework 2 Thank You Page </title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="style-1.css">
+</head>
+    <body>
+        <div> 
+            <span>Today's date: <span id="today"></span>
+        </div>
+        <div class="middle">
+
+            <center>
+
+            <img id="logo" src="logo.png" alt="Iris Valley Medical Center" width="240" height="100">
+            <h1> Thank you for your submission! </h1>
+            <p>Your Account has been created<p>
+            </center>
+
+        </div>
+    <script>
+        const d = new Date();
+        let text = d.toLocaleDateString();
+        document.getElementById("today").innerHTML = text;
+    </script>
+<!-- social media -->
+    <div class="icon">
+        <p>
+            <a href="https://twitter.com/"><img src="twitter.jpg" alt="Twitter.com" width="50" height="50"></a>
+        </p>    
+    </div>
+    <footer class="socials">
+        <address>Iris Valley Medical Center <br>69485 Somerset Road, <br>Larsonhaven, Georgia <br> 80341, Congo</address><br>
+        <a href="https://www.linkedin.com/in/vhoang001"><button>Contact Us</button></a>
+    </footer>
+    </body>
+</html>
