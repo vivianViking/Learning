@@ -374,8 +374,6 @@ function getdata1() {
                   formoutput = formoutput +"<td align='right'>"+ datatype + "</td>";
                   formoutput = formoutput +"<td class='outputdata'>"+ formcontents.elements[i].value+"</td></tr>";
                 }
-        
-
   }
 
    if (formoutput.length>0) { 
