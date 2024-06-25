@@ -583,7 +583,7 @@
             <input type="button" id="getdata" value="View Input" onclick='getdata1()'>
             <input type="button" id="check" value="Check your input" onclick="checkform()">
             <input type="reset" id="startover" value="Clear and Start over"">
-            <input type="submit" id="submit" value="Submit Form" enabled>
+            <input type="submit" id="submit" value="Submit Form" onclick="checkform()" disabled>
             </center>
         </td>
     </tr>
